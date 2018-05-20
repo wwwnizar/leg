@@ -1,0 +1,149 @@
+{
+  "configuration_id": "233cca16-d14b-4df6-918c-f15f3339db58",
+  "name": "Configuration MinDef",
+  "description": "Configuration updated for the MinDef project.",
+  "created": "2018-03-20T06:08:48.208Z",
+  "updated": "2018-03-20T16:31:18.969Z",
+  "conversions": {
+    "pdf": {
+      "heading": {
+        "fonts": [
+          {
+            "level": 1,
+            "min_size": 24,
+            "max_size": 80
+          },
+          {
+            "level": 2,
+            "min_size": 18,
+            "max_size": 24,
+            "bold": false,
+            "italic": false
+          },
+          {
+            "level": 2,
+            "min_size": 18,
+            "max_size": 24,
+            "bold": true
+          },
+          {
+            "level": 3,
+            "min_size": 13,
+            "max_size": 18,
+            "bold": false,
+            "italic": false
+          },
+          {
+            "level": 3,
+            "min_size": 13,
+            "max_size": 18,
+            "bold": true
+          },
+          {
+            "level": 4,
+            "min_size": 11,
+            "max_size": 13,
+            "bold": false,
+            "italic": false
+          }
+        ]
+      }
+    },
+    "word": {
+      "heading": {
+        "fonts": [
+          {
+            "level": 1,
+            "min_size": 24,
+            "bold": false,
+            "italic": false
+          },
+          {
+            "level": 2,
+            "min_size": 18,
+            "max_size": 23,
+            "bold": true,
+            "italic": false
+          },
+          {
+            "level": 3,
+            "min_size": 14,
+            "max_size": 17,
+            "bold": false,
+            "italic": false
+          },
+          {
+            "level": 4,
+            "min_size": 13,
+            "max_size": 13,
+            "bold": true,
+            "italic": false
+          }
+        ],
+        "styles": [
+          {
+            "level": 1,
+            "names": [
+              "pullout heading",
+              "pulloutheading",
+              "header"
+            ]
+          },
+          {
+            "level": 2,
+            "names": [
+              "subtitle"
+            ]
+          }
+        ]
+      }
+    },
+    "html": {
+      "exclude_tags_completely": [
+        "script",
+        "sup"
+      ],
+      "exclude_tags_keep_content": [
+        "font",
+        "em",
+        "span"
+      ],
+      "exclude_content": {
+        "xpaths": []
+      },
+      "keep_content": {
+        "xpaths": []
+      },
+      "exclude_tag_attributes": [
+        "EVENT_ACTIONS"
+      ]
+    },
+    "json_normalizations": [],
+    "segment": {}
+  },
+  "enrichments": [
+    {
+      "enrichment": "natural_language_understanding",
+      "source_field": "text",
+      "destination_field": "enriched_text",
+      "options": {
+        "features": {
+          "entities": {
+            "sentiment": true,
+            "emotion": false,
+            "limit": 50,
+            "model": "ed2b6a2b-3bc7-4e22-8d06-296fe6aabaf9"
+          },
+          "categories": {},
+          "relations": {
+            "model": "ed2b6a2b-3bc7-4e22-8d06-296fe6aabaf9"
+          },
+          "concepts": {
+            "limit": 8
+          }
+        }
+      }
+    }
+  ],
+  "normalizations": []
+}
