@@ -1,9 +1,9 @@
 ---
 applications:
 - path: .
-  name: watson-discovery-ui
+  name: watson-iniza
   buildpack: sdk-for-nodejs
-  memory: 128M
+  memory: 512M
   instances: 1
   random-route: true
 

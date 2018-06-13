@@ -1,12 +1,12 @@
 {
-  "name": "watson-discovery-ui",
+  "name": "watson-discovery-parser-niz",
   "version": "1.0.0",
   "private": true,
   "main": "app.js",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM/watson-discovery-ui.git"
+    "url": "https://github.com/wwwnizar/leg.git"
   },
   "scripts": {
     "start": "node app.js",
