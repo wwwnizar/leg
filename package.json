@@ -43,7 +43,7 @@
     "react-scrollbar": "^0.5.1",
     "react-simple-chatbot": "^0.2.9",
     "react-tagcloud": "^1.2.0",
-    "semantic-ui-react": "^0.77.1",
+    "semantic-ui-react": "^0.88.2",
     "sort-by": "^1.2.0",
     "uglifyify": "^4.0.5",
     "vcap_services": "^0.3.4",
