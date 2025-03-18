@@ -24,7 +24,7 @@
     "cfenv": "^1.0.3",
     "chart.js": "^2.7.1",
     "dotenv": "^4.0.0",
-    "express": "^4.15.3",
+    "express": "^4.21.2",
     "express-browserify": "^1.0.2",
     "express-react-views": "^0.10.2",
     "g": "^2.0.1",
