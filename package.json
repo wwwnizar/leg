@@ -37,7 +37,7 @@
     "python": "0.0.4",
     "query-string": "^5.0.1",
     "react": "^15.5.0",
-    "react-chartjs-2": "^2.6.4",
+    "react-chartjs-2": "^2.11.2",
     "react-dom": "^15.5.0",
     "react-native-chatbot": "0.0.1-alpha.9",
     "react-scrollbar": "^0.5.1",
