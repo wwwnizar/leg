@@ -21,15 +21,15 @@
     "babelify": "^8.0.0",
     "bluebird": "^3.5.0",
     "botkit": "^0.6.7",
-    "cfenv": "^1.0.3",
+    "cfenv": "^1.2.4",
     "chart.js": "^2.7.1",
     "dotenv": "^4.0.0",
     "express": "^4.15.3",
-    "express-browserify": "^1.0.2",
+    "express-browserify": "^1.0.3",
     "express-react-views": "^0.10.2",
     "g": "^2.0.1",
     "help": "^3.0.2",
-    "metrics-tracker-client": "*",
+    "metrics-tracker-client": "0.4.1",
     "moment": "^2.19.4",
     "npm-check-updates": "^2.13.0",
     "parse5": "^4.0.0",
@@ -47,7 +47,7 @@
     "sort-by": "^1.2.0",
     "uglifyify": "^4.0.5",
     "vcap_services": "^0.3.4",
-    "watson-developer-cloud": "^3.0.3"
+    "watson-developer-cloud": "^4.0.1"
   },
   "engines": {
     "node": "8.4.0"
