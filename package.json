@@ -31,7 +31,7 @@
     "help": "^3.0.2",
     "metrics-tracker-client": "*",
     "moment": "^2.19.4",
-    "npm-check-updates": "^2.13.0",
+    "npm-check-updates": "^10.3.1",
     "parse5": "^4.0.0",
     "prop-types": "^15.5.10",
     "python": "0.0.4",
